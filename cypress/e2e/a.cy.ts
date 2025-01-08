@@ -1,5 +1,8 @@
 describe('template spec', () => {
-  it('passes', () => {
+  beforeEach(()=>{
     cy.visit('http://localhost:5173/')
   })
-})
+  it('passes', () => {
+  
+  })
+});
